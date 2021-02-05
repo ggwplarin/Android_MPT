@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         val insertData: Boolean = peopleDB!!.addData(name, email)
 
-        if (insertData == true) {
+        if (insertData == true) {-
             Toast.makeText(this@MainActivity, "Запись добавлена!", Toast.LENGTH_LONG)
                     .show()
         } else {
